@@ -1,0 +1,14 @@
+BoxLayout:
+    orientation: 'vertical'
+    Label:
+        text: 'Enter Location:'
+    TextInput:
+        id: location_input
+        hint_text: 'City, Country'
+        multiline: False
+    Button:
+        text: 'Get Weather'
+        on_press: app.get_weather()
+    Label:
+        id: weather_info
+        text: ''
