@@ -1,3 +1,4 @@
+
 name: Build
 on:
   push:
@@ -24,3 +25,4 @@ build-android:
       with:
         name: package
         path: ${{ steps.buildozer.outputs.filename }}
+view rawkivy_workflow.yml hosted with ❤ by GitHub
